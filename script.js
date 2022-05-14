@@ -2,13 +2,13 @@ $(document).ready(function(){
     console.log(".ready!")
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Consultant", "Listener", "Freelancer"],
+        strings: ["Restaurant Consultant", "Sales Professional","Brand Ambassador", "Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Restaurant Consultant", "Sales Professional","Brand Ambassador", "Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
