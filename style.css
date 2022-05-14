@@ -81,6 +81,7 @@ html{
 }
 
 .butt {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding: 5px 20px 5px;
     background-color: transparent;
@@ -181,6 +182,7 @@ html{
 .container h2 {
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container .butt {
