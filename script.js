@@ -1,5 +1,3 @@
-$(document).ready(function(){
-    console.log(".ready!")
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Restaurant Consultant", "Sales Professional","Brand Ambassador", "Developer"],
@@ -14,4 +12,3 @@ $(document).ready(function(){
         loop: true
     });
     console.log(typed)
-});
