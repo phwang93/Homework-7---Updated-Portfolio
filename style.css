@@ -134,6 +134,7 @@ html{
     flex-direction: column;
     text-align: justify;
     padding: 30px;
+    height: 540px;
 }
 
 #about h2 {
@@ -214,6 +215,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    height: 740px;
     
 }
 
@@ -323,4 +325,16 @@ html{
     color: midnightblue;
     box-shadow: 0 0 5px azure, 0 0 10px azure, 0 0 5px azure;
     font-weight: bold;
+}
+
+.resume {
+    background-color: midnightblue;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#resume {
+    width: 85%;
+    height: 1000px;
+    margin-left: 100px;
 }
