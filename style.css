@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -40,6 +40,7 @@ html{
     background-color: azure;
     color: midnightblue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 #main {
@@ -80,12 +81,12 @@ html{
 }
 
 .butt {
+    text-decoration: none;
     padding: 5px 20px 5px;
     background-color: transparent;
     border: 2px solid azure;
     color: azure;
     outline: none;
-    transition: 0.6s ease forwards;
     font-size: 24px;
     border-radius: 10px;
 }
@@ -151,17 +152,55 @@ html{
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     box-sizing: border-box;  
+    margin: 10px;
    
 }
 
 .projects img{
     width: 360px;
     height: 240px;
-    margin: 60px;
+    margin: 10px;
     border-radius: 10px;
+}
+
+.container {
+        background-color: transparent;
+        border: 2px solid azure;
+        color: azure;
+        outline: none;
+        font-size: 16px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.container .butt {
+        padding: 5px 20px 5px;
+        background-color: transparent;
+        border: 2px solid azure;
+        color: azure;
+        outline: none;
+        transition: 0.6s ease forwards;
+        font-size: 16px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
+    .butt:hover {
+        cursor: pointer;
+        background-color: azure;
+        color: midnightblue;
+        box-shadow: 0 0 5px azure, 0 0 10px azure, 0 0 5px azure;
+        font-weight: bold;
 }
 
 #experiences {
@@ -256,6 +295,9 @@ html{
     width: 10%;
     border: none;
     outline: none;
+    background-color: transparent;
+    border: 2px solid azure;
+    color: azure;
 }
 
 #send:hover {
