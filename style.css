@@ -264,7 +264,6 @@ html{
     background: linear-gradient(to top, midnightblue 50%, azure 50%); 
     background-size: 100% 200%;
     transition: all 0.5s;
-    margin: 10px;
 }
 
 .duties:hover {
